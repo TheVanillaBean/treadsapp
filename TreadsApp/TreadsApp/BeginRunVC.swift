@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BeginRunVC.swift
 //  TreadsApp
 //
 //  Created by Alex on 1/8/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BeginRunVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
