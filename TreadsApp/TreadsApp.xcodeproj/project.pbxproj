@@ -30,6 +30,7 @@
 		5A516E15200363D70023CE21 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A516E03200363D70023CE21 /* Montserrat-BoldItalic.ttf */; };
 		5A516E16200363D80023CE21 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A516E04200363D70023CE21 /* Montserrat-BlackItalic.ttf */; };
 		5A516E17200363D80023CE21 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A516E05200363D70023CE21 /* Montserrat-ExtraBoldItalic.ttf */; };
+		5A516E19200368810023CE21 /* LogTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E18200368810023CE21 /* LogTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		5A516E03200363D70023CE21 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5A516E04200363D70023CE21 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5A516E05200363D70023CE21 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5A516E18200368810023CE21 /* LogTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,6 @@
 				5A516DEF200363210023CE21 /* Extensions */,
 				5A516DEE2003631A0023CE21 /* Resources */,
 				5A516DDC200358490023CE21 /* AppDelegate.swift */,
-				5A516DDE200358490023CE21 /* BeginRunVC.swift */,
 				5A516DE0200358490023CE21 /* Main.storyboard */,
 				5A516DE3200358490023CE21 /* Assets.xcassets */,
 				5A516DE5200358490023CE21 /* LaunchScreen.storyboard */,
@@ -148,6 +149,8 @@
 		5A516DF1200363320023CE21 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A516DDE200358490023CE21 /* BeginRunVC.swift */,
+				5A516E18200368810023CE21 /* LogTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				5A516DDF200358490023CE21 /* BeginRunVC.swift in Sources */,
 				5A516DDD200358490023CE21 /* AppDelegate.swift in Sources */,
+				5A516E19200368810023CE21 /* LogTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
