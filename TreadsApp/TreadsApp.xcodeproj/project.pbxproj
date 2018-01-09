@@ -31,6 +31,8 @@
 		5A516E16200363D80023CE21 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A516E04200363D70023CE21 /* Montserrat-BlackItalic.ttf */; };
 		5A516E17200363D80023CE21 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A516E05200363D70023CE21 /* Montserrat-ExtraBoldItalic.ttf */; };
 		5A516E19200368810023CE21 /* LogTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E18200368810023CE21 /* LogTableVC.swift */; };
+		5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */; };
+		5A516E1D2004BE350023CE21 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1C2004BE350023CE21 /* LocationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		5A516E04200363D70023CE21 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5A516E05200363D70023CE21 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		5A516E18200368810023CE21 /* LogTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableVC.swift; sourceTree = "<group>"; };
+		5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		5A516E1C2004BE350023CE21 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +153,10 @@
 		5A516DF1200363320023CE21 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A516E1C2004BE350023CE21 /* LocationVC.swift */,
 				5A516DDE200358490023CE21 /* BeginRunVC.swift */,
 				5A516E18200368810023CE21 /* LogTableVC.swift */,
+				5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A516E1D2004BE350023CE21 /* LocationVC.swift in Sources */,
 				5A516DDF200358490023CE21 /* BeginRunVC.swift in Sources */,
 				5A516DDD200358490023CE21 /* AppDelegate.swift in Sources */,
+				5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */,
 				5A516E19200368810023CE21 /* LogTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
