@@ -182,15 +182,15 @@
                                 <rect key="frame" x="255" y="552" width="75" height="75"/>
                                 <state key="normal" image="pauseButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-N9-vN7">
-                                <rect key="frame" x="61.5" y="561" width="57" height="57"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="END RUN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcf-Kx-R02">
                                 <rect key="frame" x="149.5" y="579.5" width="76.5" height="20"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunButton" translatesAutoresizingMaskIntoConstraints="NO" id="YD1-N9-vN7">
+                                <rect key="frame" x="61" y="561" width="57" height="57"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -220,6 +220,10 @@
                             <constraint firstItem="ufG-LY-Sva" firstAttribute="leading" secondItem="vm0-Jm-fea" secondAttribute="leading" id="tY0-eH-XG8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sliderImageView" destination="YD1-N9-vN7" id="Aik-ks-VTO"/>
+                        <outlet property="swipeBGImageView" destination="LCs-h5-BDb" id="d8k-NO-AsH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMY-vP-Dfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
