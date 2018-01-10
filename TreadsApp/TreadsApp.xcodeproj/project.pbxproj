@@ -33,6 +33,7 @@
 		5A516E19200368810023CE21 /* LogTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E18200368810023CE21 /* LogTableVC.swift */; };
 		5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */; };
 		5A516E1D2004BE350023CE21 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1C2004BE350023CE21 /* LocationVC.swift */; };
+		5A516E1F2006305F0023CE21 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1E2006305F0023CE21 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		5A516E18200368810023CE21 /* LogTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogTableVC.swift; sourceTree = "<group>"; };
 		5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		5A516E1C2004BE350023CE21 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		5A516E1E2006305F0023CE21 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		5A516DEF200363210023CE21 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5A516E1E2006305F0023CE21 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A516E1D2004BE350023CE21 /* LocationVC.swift in Sources */,
+				5A516E1F2006305F0023CE21 /* Extensions.swift in Sources */,
 				5A516DDF200358490023CE21 /* BeginRunVC.swift in Sources */,
 				5A516DDD200358490023CE21 /* AppDelegate.swift in Sources */,
 				5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */,
