@@ -34,9 +34,12 @@
 		5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */; };
 		5A516E1D2004BE350023CE21 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1C2004BE350023CE21 /* LocationVC.swift */; };
 		5A516E1F2006305F0023CE21 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E1E2006305F0023CE21 /* Extensions.swift */; };
+		5A516E212011F4BF0023CE21 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A516E202011F4BF0023CE21 /* Run.swift */; };
+		F6672C5E74403B579BB99985 /* Pods_TreadsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB1746E3FFF95F5E41AE64F /* Pods_TreadsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB1746E3FFF95F5E41AE64F /* Pods_TreadsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TreadsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A516DD9200358490023CE21 /* TreadsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreadsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A516DDC200358490023CE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A516DDE200358490023CE21 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -66,6 +69,9 @@
 		5A516E1A20037DB20023CE21 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 		5A516E1C2004BE350023CE21 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		5A516E1E2006305F0023CE21 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5A516E202011F4BF0023CE21 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		C936C434A8936900BDCFEC33 /* Pods-TreadsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreadsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TreadsApp/Pods-TreadsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F3BC57C38DEAFE0F24A57EB8 /* Pods-TreadsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TreadsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TreadsApp/Pods-TreadsApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,17 +79,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6672C5E74403B579BB99985 /* Pods_TreadsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5B8D9B408659DC528A5F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1746E3FFF95F5E41AE64F /* Pods_TreadsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A516DD0200358490023CE21 = {
 			isa = PBXGroup;
 			children = (
 				5A516DDB200358490023CE21 /* TreadsApp */,
 				5A516DDA200358490023CE21 /* Products */,
+				B3C7A4A574C47F746CBB1366 /* Pods */,
+				3A5B8D9B408659DC528A5F56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,8 +191,18 @@
 		5A516DF3200363420023CE21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5A516E202011F4BF0023CE21 /* Run.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B3C7A4A574C47F746CBB1366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C936C434A8936900BDCFEC33 /* Pods-TreadsApp.debug.xcconfig */,
+				F3BC57C38DEAFE0F24A57EB8 /* Pods-TreadsApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A516DEB200358490023CE21 /* Build configuration list for PBXNativeTarget "TreadsApp" */;
 			buildPhases = (
+				6F2BA74BDE88E5E1A2FB4080 /* [CP] Check Pods Manifest.lock */,
 				5A516DD5200358490023CE21 /* Sources */,
 				5A516DD6200358490023CE21 /* Frameworks */,
 				5A516DD7200358490023CE21 /* Resources */,
+				E5FB75C16B8B58659498511B /* [CP] Embed Pods Frameworks */,
+				9766056C4C1F414A2527ABDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +293,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F2BA74BDE88E5E1A2FB4080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TreadsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9766056C4C1F414A2527ABDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreadsApp/Pods-TreadsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FB75C16B8B58659498511B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TreadsApp/Pods-TreadsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TreadsApp/Pods-TreadsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A516DD5200358490023CE21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +359,7 @@
 				5A516DDF200358490023CE21 /* BeginRunVC.swift in Sources */,
 				5A516DDD200358490023CE21 /* AppDelegate.swift in Sources */,
 				5A516E1B20037DB20023CE21 /* CurrentRunVC.swift in Sources */,
+				5A516E212011F4BF0023CE21 /* Run.swift in Sources */,
 				5A516E19200368810023CE21 /* LogTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +495,7 @@
 		};
 		5A516DEC200358490023CE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C936C434A8936900BDCFEC33 /* Pods-TreadsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +511,7 @@
 		};
 		5A516DED200358490023CE21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3BC57C38DEAFE0F24A57EB8 /* Pods-TreadsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
